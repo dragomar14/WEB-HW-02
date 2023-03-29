@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-hw-02"
+version = "0.1.0"
+description = ""
+authors = ["Dmyto Marchenko <d.i.marchenko@student.khai.edu>"]
+license = "MIT"
+readme = "README.md"
+#packages = [{include = "web_hw_02"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prettytable = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
